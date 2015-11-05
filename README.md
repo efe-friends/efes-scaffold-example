@@ -1,4 +1,6 @@
 # efes-scaffold-example
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Built with Gulp](http://img.shields.io/badge/built%20with-gulp.js-red.svg)](http://gulpjs.com/)
 
-efes-scaffold-example
+efes scaffold example
+
+
