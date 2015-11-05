@@ -1,0 +1,1 @@
+console.log "coffee c2.js"

@@ -1,0 +1,1 @@
+console.log("es6 c1.js");
