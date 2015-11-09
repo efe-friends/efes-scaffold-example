@@ -20,28 +20,26 @@ js脚本文件目录
 css样式文件目录
 #### src
 开发目录：放置在此目录下的文件(除了jade目录)必须在concatfile.json中配置，才能生成至对应的发布目录中。此目录下的文件，不能直接使用。
-    ##### coffee
-    coffee文件开发目录。需要在concatfile.json中配置合并、发布的路径。如非特殊需要，合并、发布目录为scripts
-    ##### es6
-    es6文件开发目录。需要在concatfile.json中配置合并、发布的路径。如非特殊需要，合并、发布目录为scripts
-    ##### js
-    js文件开发目录。需要在concatfile.json中配置合并、发布的路径。如非特殊需要，合并、发布目录为scripts
-    ##### less
-    less文件开发目录
-        ###### includes
-        作为引用的less文件开发目录，如：header.less, footer.less等。
-        ###### publishs
-        作为发布，合并的less文件开发目录。需要在concatfile.json中配置合并、发布的路径。如非特殊需要，合并、发布目录为styles
-    ##### css
-    css文件开发目录.需要在concatfile.json中配置合并、发布的路径。如非特殊需要，合并、发布目录为styles
-    ##### jade
-    jade文件开发目录
-        ###### includes
-        作为引用的jade文件开发目录，如：header.jade, footer.jade等
-        ###### layouts
-        作为布局的jade文件开发目录
-        ###### publishs
-    需要发布到根目录下的jade文件开发目录
+##### src/coffee
+coffee文件开发目录。需要在concatfile.json中配置合并、发布的路径。如非特殊需要，合并、发布目录为scripts
+##### src/es6
+es6文件开发目录。需要在concatfile.json中配置合并、发布的路径。如非特殊需要，合并、发布目录为scripts
+##### src/js
+js文件开发目录。需要在concatfile.json中配置合并、发布的路径。如非特殊需要，合并、发布目录为scripts
+##### src/less
+less文件开发目录
+###### src/less/includes
+作为引用的less文件开发目录，如：header.less, footer.less等。
+###### src/less/publishs
+作为发布，合并的less文件开发目录。需要在concatfile.json中配置合并、发布的路径。如非特殊需要，合并、发布目录为styles
+##### src/css
+css文件开发目录.需要在concatfile.json中配置合并、发布的路径。如非特殊需要，合并、发布目录为styles
+##### src/jade
+jade文件开发目录
+###### src/jade/includes
+作为引用的jade文件开发目录，如：header.jade, footer.jade等
+###### src/jade/publishs
+需要发布到根目录下的jade文件开发目录
 
 #### .csslintrc
 csslint检测规则
