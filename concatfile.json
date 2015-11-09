@@ -18,7 +18,7 @@
             "src/coffee/d/d1.coffee"
         ],
         "styles/main.css": [
-            "src/less/publish/less.less",
+            "src/less/publishs/less.less",
             "src/css/a.css",
             "src/css/b.css",
             "src/css/c/c1.css",
